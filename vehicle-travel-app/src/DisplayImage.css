@@ -1,0 +1,119 @@
+.user{
+box-sizing: border-box;
+position: absolute;
+width: 1200px;
+height: 66px;
+left: 119px;
+top: 120px;
+background: #FFFFFF;
+border: 1px solid #A9A9A9;
+border-radius: 16px;
+}
+
+.welcome-section{
+box-sizing: border-box;
+position: absolute;
+width: 1200px;
+height: 100px;
+left: 119px;
+top: 202px;
+background: #FFFFFF;
+border: 1px solid #A9A9A9;
+border-radius: 16px;
+}
+
+.excel1{
+    margin-top: 12px;
+    margin-left: 100px;
+}
+
+.excel2{
+    margin-left: 200px;
+}
+
+.table-column {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+    position: absolute;
+    width: 1150px;
+    height: 517px;
+    left: 156px;
+    top: 386px;
+    border-radius: 8px;
+  }
+  
+    .trip1{
+    position: absolute;
+    width: 113px;
+    height: 24px;
+    left: 119px;
+    top: 331px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 100%;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.01em;
+    color: #000000;
+    }
+    
+    .button13 {
+    margin-left: 1100px;
+    margin-top: 280px;
+    position: absolute;
+    }
+
+    .button31{
+        position: relative;
+        margin-left: 1220px;
+        margin-top: 280px;
+    }
+
+      .trip22{
+            width: 1139px;
+            height: 22px;
+            font-family: 'Roboto';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 22px;
+            color: rgba(0, 0, 0, 0.85);
+            flex: none;
+            order: 0;
+            flex-grow: 1;
+            margin-bottom: 100px;
+            z-index: 0;
+        }
+
+        .pagination {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            padding: 0px;
+            gap: 8px;
+            position: absolute;
+            width: 350px;
+            height: 32px;
+            left: calc(50% - 272px/2);
+            top: 987px;
+          }
+          
+          .table-cell {
+            box-sizing: border-box;
+            flex-direction: column;
+            justify-content: center;
+            align-items: flex-start;
+            padding: 12px;
+            width: 1163px;
+            height: 47px;
+            border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+            flex: none;
+            order: 1;
+            align-self: stretch;
+            flex-grow: 0;
+          }
+          

@@ -1,0 +1,201 @@
+.dashboard {
+    text-align: center;
+  }
+  
+  .dashboard-header {
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 28px 32px;
+    gap: 1116px;
+    position: absolute;
+    width: 1440px;
+    height: 96px;
+    left: 0px;
+    top: 0px;
+    background: #FFFFFF;
+    border-bottom: 1px solid #EDEDED;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.14);
+  }
+  
+  .dashboard-logo {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    left: 32px;
+    top: 28px;
+  }
+  
+  .Speed {
+    margin-bottom: -10px;
+    margin-left: 45px;
+  }
+
+  .dashboard-main {
+    padding: 20px;
+  }
+  
+  .welcome-message {
+    box-sizing: border-box;
+    position: absolute;
+    width: 1200px;
+    height: 66px;
+    left: 119px;
+    top: 120px;
+    background: #FFFFFF;
+    border: 1px solid #A9A9A9;
+    border-radius: 16px;
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .upload-section {
+    box-sizing: border-box;
+    position: absolute;
+    width: 1200px;
+    height: 442px;
+    left: 119px;
+    top: 202px;
+    background: #FFFFFF;
+    border: 1px solid #A9A9A9;
+    border-radius: 16px;
+    display: inline-block;
+    padding: 40px;
+  }
+  
+  .map-illustration {
+    width: 203.81px;
+    height: 184px;
+    top: 27px;
+    left: 500px;
+    gap: 0px;
+    opacity: 0px;
+    position: absolute; /* make sure this is absolute to position it correctly */
+    font-family: 'Squada One';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%; /* or 16px */
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.01em;
+    color: #0C1421
+  }
+  
+  .upload-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 16px 0px;
+    gap: 10px;
+    position: absolute;
+    width: 186px;
+    height: 52px;
+    left: 510px;
+    top: 250px;
+    background: #162D3A;
+    border-radius: 8px;
+    color: white;
+    border: none;
+    cursor:pointer;
+  }
+  
+  .upload-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .upload-instruction {
+    position: absolute;
+    width: 249px;
+    height: 16px;
+    left: 480px;
+    top: 350px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 100%; /* identical to box height, or 16px */
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.01em;
+    color: #9C9C9C;
+    margin-top :10px;
+  }
+  
+  .upload-instruction a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .upload-instruction a:hover {
+    text-decoration: underline;
+  }
+  
+  .modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000; /* Higher than other elements */
+  }
+  
+  .modal-content {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 400px;
+    max-width: 80%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+  }
+  
+  .modal-content label {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  .modal-content input {
+    width: 100%;
+    margin-top: 5px;
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+  
+  .modal-content button {
+    margin-top: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .modal-content button:first-of-type {
+    background: #ccc;
+    margin-right: 10px;
+  }
+  
+  .modal-content button:last-of-type {
+    background: #007bff;
+    color: white;
+  }  
+
+  /* Other existing styles */
+
+  .display-image {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .display-image img {
+    max-width: 80%;
+    height: auto;
+  }
+  

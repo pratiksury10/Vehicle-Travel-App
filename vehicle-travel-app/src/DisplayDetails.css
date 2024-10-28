@@ -1,0 +1,28 @@
+.display-details-container {
+    text-align: center;
+    padding: 20px;
+  }
+  
+  .trip-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .trip-table th, .trip-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+  }
+  
+  .trip-table th {
+    background-color: #4a90e2;
+    color: white;
+  }
+  
+  .leaflet-container {
+    height: 400px;
+    width: 100%;
+    margin-top: 20px;
+  }
+  
